@@ -1,12 +1,17 @@
 {
-  "name": "PokedexAPI",
+  "name": "pokedexapi",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/Di-santos/PokedexAPI.git",
   "author": "Di-santos <dio.silveira07@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+
   "dependencies": {
     "express": "^4.17.1",
-    "express-async-errors": "^3.1.1"
+    "express-async-errors": "^3.1.1",
+    "nodemon": "^2.0.6"
   }
 }
