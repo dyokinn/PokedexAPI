@@ -21,12 +21,15 @@ router.get('/:id', function (req, res) {
 }),
 
 
-// Listar a Pokedex de uma Região específica
-router.get('/Kanto', function (req, res) {
+router.get('/:name', function (req, res) {
+    const {name} = req.params
+    res.render(name)
+    const pokemon = data.find(pokemon => pokemon.name.english == name)
 
-    res.send("oi")
-})
+    if (!pokemon) return res.status(404)
 
+    res.json(pokemon) 
+}),
 
 // Export no módulo com a rota principal e suas secundárias
 module.exports = router;
