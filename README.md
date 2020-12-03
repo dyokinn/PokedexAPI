@@ -1,2 +1,5 @@
 # PokedexAPI
- blabla
+
+## O que é?
+
+## Funcionamento
