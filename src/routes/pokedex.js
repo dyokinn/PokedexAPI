@@ -10,8 +10,8 @@ router.get('/', function (req, res) {
 }),
 
 
-// Buscar um Pokémon específico pelo Número
-router.get('/:id', function (req, res) {
+// Buscar um Pokémon específico pelo número
+router.get('/id/:id', function (req, res) {
     const {id} = req.params
     const pokemon = data.find(pokemon => pokemon.id ==id)
 
@@ -21,15 +21,16 @@ router.get('/:id', function (req, res) {
 }),
 
 
-router.get('/:name', function (req, res) {
+// Buscar um Pokémon específico pelo nome
+router.get('/name/:name', function (req, res) {
     const {name} = req.params
-    res.render(name)
     const pokemon = data.find(pokemon => pokemon.name.english == name)
 
     if (!pokemon) return res.status(404)
 
     res.json(pokemon) 
 }),
+
 
 // Export no módulo com a rota principal e suas secundárias
 module.exports = router;

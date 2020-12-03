@@ -2,7 +2,7 @@
 const express= require('express')
 const app = express()
 
-// Rotas
+// Imports nas Rotas
 const pokedex = require('./routes/pokedex');
 const regions = require('./routes/regions');
 
@@ -14,4 +14,6 @@ app.use('/regions', regions);
 
 
 // Porta 3000
-app.listen(3000)
+app.listen(3000, ()=>{
+    console.log('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n +++ Server Online +++ \n\n\n')
+})
