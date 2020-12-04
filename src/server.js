@@ -3,14 +3,14 @@ const express= require('express')
 const app = express()
 
 // Imports nas Rotas
-const pokedex = require('./routes/pokedex');
+const search = require('./routes/search');
 const regions = require('./routes/regions');
 const types = require('./routes/types');
 
 
 // Compatibilidade JSON e uso das rotas
 app.use(express.json())
-app.use('/pokedex', pokedex);
+app.use('/search', search);
 app.use('/regions', regions);
 app.use('/types', types);
 
