@@ -17,13 +17,13 @@ PokedexAPI é um projeto de implementação de uma API REST que simula uma Poked
 ![Insomnia_r8Xr3oTs9G](https://user-images.githubusercontent.com/68029637/101536031-3734d480-3978-11eb-9a74-198039e6781b.png)
 
 ```sh
-[domínio]/search/id/485
+[domínio]/search/id/185
 ```
 
 ![Insomnia_O1qdMSg79K](https://user-images.githubusercontent.com/68029637/101536110-516eb280-3978-11eb-8317-dcde663ba26a.png)
 
 ```sh
-[domínio]/search
+[domínio]/search/name/Pikachu
 ```
 
 ![Insomnia_F1BKI2cU1S](https://user-images.githubusercontent.com/68029637/101536163-66e3dc80-3978-11eb-9725-03d2b0feb17d.png)
