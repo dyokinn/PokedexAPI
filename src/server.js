@@ -1,5 +1,5 @@
 // Imports no Express e Instanciação do App
-const express= require('express')
+const express = require('express')
 const app = express()
 
 // Imports nas Rotas
