@@ -28,7 +28,7 @@ PokedexAPI é um projeto de implementação de uma API REST que simula uma Poked
 
 ![Insomnia_F1BKI2cU1S](https://user-images.githubusercontent.com/68029637/101536163-66e3dc80-3978-11eb-9725-03d2b0feb17d.png)
 
-### Rota "/types"
+## Rota "/types"
 
 ```sh
 [domínio]/types/Dragon
@@ -36,7 +36,7 @@ PokedexAPI é um projeto de implementação de uma API REST que simula uma Poked
 
 ![Insomnia_qzgKfFR9B0](https://user-images.githubusercontent.com/68029637/101536240-7fec8d80-3978-11eb-9066-4950677f3a24.png)
 
-### Rota "/regions"
+## Rota "/regions"
 
 ```sh
 [domínio]/regions/johto
