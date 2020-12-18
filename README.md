@@ -39,10 +39,10 @@ PokedexAPI é um projeto de implementação de uma API REST que simula uma Poked
 ## Rota "/regions"
 
 ```sh
-[domínio]/regions/johto
+[domínio]/regions/kanto
 ```
 
-![Insomnia_ZtGrJTf8DH](https://user-images.githubusercontent.com/68029637/101536306-9692e480-3978-11eb-9d11-6fa3b1083076.png)
+![Insomnia_ZtGrJTf8DH](https://user-images.githubusercontent.com/68029637/102628014-d2bc0700-4127-11eb-9267-e7f7cc884771.png)
 
 ## Aprendizado
 Neste projeto pessoal pude botar em prática alguns conhecimentos em Express e Backend no geral, além de tornar um pouco mais palpável meu conceitos sobre os padrões REST e API's.
