@@ -1,5 +1,5 @@
 // Import no Express e no Router para módulos de rotas
-var express = require('express');
+import express from "express";
 var router = express.Router();
 
 const data = require('../database/pokedex.json')

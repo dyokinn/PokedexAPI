@@ -1,5 +1,5 @@
 // Import no Express e no Router para módulos de rotas
-var express = require('express');
+import express from "express";
 var router = express.Router();
 
 const data = require('../database/pokedex.json')
@@ -29,7 +29,7 @@ router.get('/name/:name', function (req, res) {
     if (!pokemon) return res.status(404)
 
     res.json(pokemon) 
-}),
+})
 
 
 // Export no módulo com a rota principal e suas secundárias
