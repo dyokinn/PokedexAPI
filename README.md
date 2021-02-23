@@ -1,7 +1,7 @@
 # PokedexAPI
 
 # O que é?
-PokedexAPI é um projeto de implementação de uma API REST que simula uma Pokedex, responsável por informar diferentes dados sobre um Pokémon.
+PokedexAPI é um projeto de implementação de uma API REST simples que simula uma Pokedex, responsável por retornar diferentes dados sobre um Pokémon nos endpoints.
 
 # Funcionamento (Rotas):
 - Retornar toda a Pokedex ( _/ search_ )
