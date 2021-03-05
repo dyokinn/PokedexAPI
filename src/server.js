@@ -17,7 +17,7 @@ app.use('/regions', regions);
 app.use('/types', types);
 
 
-// Atribuição da porta 3000
-app.listen(3000, ()=>{
+// Atribuição da porta 5000
+app.listen(5000, ()=>{
     console.log('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n +++ Server Online +++ \n\n\n')
 })
