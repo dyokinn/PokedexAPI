@@ -6,7 +6,7 @@
   "author": "Di-santos <dio.silveira07@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node -r esm src/server.js"
+    "dev": "nodemon -r esm src/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

@@ -15,6 +15,11 @@ app.use(cors())
 app.use('/search', search);
 app.use('/regions', regions);
 app.use('/types', types);
+app.get('/teste', function(req, res) {
+    res.status(200).json({
+        message: "de dentro de um container atualizado"
+    })
+  });
 
 
 // Atribuição da porta 5000
