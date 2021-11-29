@@ -17,7 +17,7 @@ app.use('/regions', regions);
 app.use('/types', types);
 app.get('/teste', function(req, res) {
     res.status(200).json({
-        message: "de dentro de um container atualizado"
+        message: "de dentro de um container atualizado de novo"
     })
   });
 
